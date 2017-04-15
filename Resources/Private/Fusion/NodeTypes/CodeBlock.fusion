@@ -1,0 +1,17 @@
+prototype(Vette.CodeBlock:CodeBlock) {
+    formattedCode = Vette.CodeBlock:Geshi {
+        code = ${q(node).property('code')}
+        language = ${q(node).property('language')}
+        showLineNumbers = ${q(node).property('showLineNumbers')}
+        startLinesAt = ${q(node).property('startLinesAt')}
+        highlightLines = ${String.split(q(node).property('highlightLines'), ',')}
+
+        @cache {
+            mode = 'cached'
+            entryIdentifier {
+                node = ${node}
+                editPreviewMode = ${node.context.currentRenderingMode.name}
+            }
+        }
+    }
+}

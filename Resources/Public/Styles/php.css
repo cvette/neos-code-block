@@ -1,0 +1,132 @@
+.php.code-block .kw1 {
+    color: #cc7832;
+}
+
+.php.code-block .kw2 {
+    color: #cc7832;
+    font-weight: bold;
+}
+
+.php.code-block .kw3 {
+    color: #eeeeee;
+}
+
+.php.code-block .kw4 {
+    color: #34994e;
+    font-weight: bold;
+}
+
+.php.code-block .co1 {
+    color: #8d8d8d;
+    font-style: italic;
+}
+
+.php.code-block .co2 {
+    color: #8d8d8d;
+    font-style: italic;
+}
+
+.php.code-block .co3 {
+    color: #2c8fcc;
+    font-style: italic;
+}
+
+.php.code-block .co4 {
+    color: #34994e;
+    font-style: italic;
+}
+
+.php.code-block .coMULTI {
+    color: #666666;
+    font-style: italic;
+}
+
+.php.code-block .es0 {
+    color: #2c8fcc;
+    font-weight: bold;
+}
+
+.php.code-block .es1 {
+    color: #2c8fcc;
+    font-weight: bold;
+}
+
+.php.code-block .es2 {
+    color: #660099;
+    font-weight: bold;
+}
+
+.php.code-block .es3 {
+    color: #660099;
+    font-weight: bold;
+}
+
+.php.code-block .es4 {
+    color: #006699;
+    font-weight: bold;
+}
+
+.php.code-block .es5 {
+    color: #006699;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.php.code-block .es6 {
+    color: #34994e;
+    font-weight: bold;
+}
+
+.php.code-block .es_h {
+    color: #2c8fcc;
+    font-weight: bold;
+}
+
+.php.code-block .br0 {
+    color: #eeeeee;
+}
+
+.php.code-block .sy0 {
+    color: #eeeeee;
+}
+
+.php.code-block .sy1 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.php.code-block .st0 {
+    color: #2c8fcc;
+}
+
+.php.code-block .st_h {
+    color: #2c8fcc;
+}
+
+.php.code-block .nu0 {
+    color: #cc66cc;
+}
+
+.php.code-block .nu8 {
+    color: #208080;
+}
+
+.php.code-block .nu12 {
+    color: #208080;
+}
+
+.php.code-block .nu19 {
+    color: #800080;
+}
+
+.php.code-block .me1 {
+    color: #eee;
+}
+
+.php.code-block .me2 {
+    color: #eee;
+}
+
+.php.code-block .re0 {
+    color: #9876aa;
+}

@@ -1,0 +1,49 @@
+.code-block .de1, .code-block .de2 {
+    font: normal normal 1em/1.2em monospace;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    color: #ffd260;
+}
+
+.code-block {
+    color: #888;
+    font-family: monospace;
+    background-color: #353535;
+}
+
+.code-block ol {
+    margin: 1em 0;
+}
+
+.code-block .imp {
+    font-weight: bold;
+    color: #e0444b;
+}
+
+.code-block li, .code-block .li1 {
+    font-weight: normal;
+    vertical-align: top;
+    border-left: 1px solid #444;
+}
+
+.code-block .ln {
+    width: 1px;
+    text-align: right;
+    margin: 0;
+    padding: 0 2px;
+    vertical-align: top;
+}
+
+.code-block .li2 {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.code-block .ln-xtra, .code-block li.ln-xtra, .code-block div.ln-xtra {
+    background-color: #3c3c3c;
+}
+
+.code-block span.xtra {
+    display: block;
+}

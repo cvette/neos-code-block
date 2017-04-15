@@ -1,0 +1,9 @@
+prototype(Vette.CodeBlock:Geshi) {
+    @class = 'Vette\\CodeBlock\\NodeTypes\\CodeBlockImplementation'
+
+    code = ''
+    language = 'Text'
+    showLineNumbers = true
+    highlightLines = ${[]}
+    inlineCss = true
+}

@@ -1,0 +1,9 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'Vette.CodeBlock': TRUE
+    userInterface:
+      translation:
+        autoInclude:
+          'Vette.CodeBlock': ['NodeTypes/*']

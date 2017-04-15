@@ -1,0 +1,58 @@
+'Vette.CodeBlock:CodeBlock':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    label: i18n
+    icon: 'icon-code'
+    group: 'general'
+    inspector:
+      groups:
+        'codeBlock':
+          label: 'Code Block'
+  properties:
+    code:
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: i18n
+        inspector:
+          group: 'codeBlock'
+          editor: 'Neos.Neos/Inspector/Editors/CodeEditor'
+          editorOptions:
+            buttonLabel: 'Edit'
+            highlightingMode: 'text/plain'
+    language:
+      defaultValue: 'text'
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: i18n
+        inspector:
+          group: 'codeBlock'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            dataSourceIdentifier: 'geshiLanguages'
+
+    showLineNumbers:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadIfChanged: true
+        label: i18n
+        inspector:
+          group: 'codeBlock'
+    startLinesAt:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadIfChanged: true
+        label: i18n
+        inspector:
+          group: 'codeBlock'
+    highlightLines:
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: i18n
+        inspector:
+          group: 'codeBlock'

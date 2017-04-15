@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Vette.CodeBlock" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="ui.label" xml:space="preserve">
+				<source>Code Block</source>
+			</trans-unit>
+            <trans-unit id="properties.code" xml:space="preserve">
+				<source>Source Code</source>
+			</trans-unit>
+            <trans-unit id="properties.language" xml:space="preserve">
+				<source>Language</source>
+			</trans-unit>
+            <trans-unit id="properties.startLinesAt" xml:space="preserve">
+				<source>Start line numbers at</source>
+			</trans-unit>
+            <trans-unit id="properties.showLineNumbers" xml:space="preserve">
+				<source>Show line numbers</source>
+			</trans-unit>
+			<trans-unit id="properties.highlightLines" xml:space="preserve">
+				<source>Highlight lines (Comma separated)</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>
