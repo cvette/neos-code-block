@@ -1,4 +1,6 @@
-[![Total Downloads](https://poser.pugx.org/cvette/codeblock/downloads)](https://packagist.org/packages/cvette/codeblock) [![License](https://poser.pugx.org/cvette/codeblock/license)](https://packagist.org/packages/cvette/codeblock)
+[![Latest Stable Version](https://poser.pugx.org/cvette/neos-code-block/v/stable)](https://packagist.org/packages/cvette/neos-code-block)
+[![Total Downloads](https://poser.pugx.org/cvette/codeblock/downloads)](https://packagist.org/packages/cvette/codeblock) 
+[![License](https://poser.pugx.org/cvette/codeblock/license)](https://packagist.org/packages/cvette/codeblock)
 
 # Code block Neos plugin
 This plugin adds a nodetype that allows you to display blocks of code with syntax highlighting for a wide range of languages. The highlighing is done on the server-side by using the [GeSHi](http://qbnz.com/highlighter/) library.
