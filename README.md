@@ -5,6 +5,10 @@ This plugin adds a nodetype that allows you to display blocks of code with synta
 
 You can set the language, toggle line numbers, set the starting line number and highlight single lines via the property editor.
 
+## Installation
+
+`composer require cvette/neos-code-block`
+
 ## Usage and custom styles
 
 The Codeblock node type works out-of-the-box by inlining the necessary CSS. If you want to customize the styling you can disable the inline CSS by setting the `inlineCss` path of the `Vette.CodeBlock:Geshi` prototype to `false`:
