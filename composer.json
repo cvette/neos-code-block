@@ -1,7 +1,7 @@
 {
-  "name": "cvette/codeblock",
+  "name": "cvette/neos-code-block",
   "type": "neos-plugin",
-  "description": "",
+  "description": "This package includes a node type to add code blocks with syntax highlighting to your Neos CMS project.",
   "license": "GPL-3.0+",
   "authors": [
     {
