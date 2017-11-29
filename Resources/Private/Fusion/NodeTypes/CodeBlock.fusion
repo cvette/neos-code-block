@@ -5,13 +5,5 @@ prototype(Vette.CodeBlock:CodeBlock) {
         showLineNumbers = ${q(node).property('showLineNumbers')}
         startLinesAt = ${q(node).property('startLinesAt')}
         highlightLines = ${String.split(q(node).property('highlightLines'), ',')}
-
-        @cache {
-            mode = 'cached'
-            entryIdentifier {
-                node = ${node}
-                editPreviewMode = ${node.context.currentRenderingMode.name}
-            }
-        }
     }
 }
