@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file original="" product-name="Vette.CodeBlock" source-language="en" datatype="plaintext">
+    <file original="" product-name="Vette.CodeBlock" source-language="de" datatype="plaintext">
         <body>
             <trans-unit id="ui.label" xml:space="preserve">
                 <source>Code Block</source>
@@ -9,16 +9,16 @@
               <source>Source Code</source>
             </trans-unit>
                 <trans-unit id="properties.language" xml:space="preserve">
-              <source>Language</source>
+              <source>Sprache</source>
             </trans-unit>
                 <trans-unit id="properties.startLinesAt" xml:space="preserve">
-              <source>Start line numbers at</source>
+              <source>Starte Liniennummerierung bei</source>
             </trans-unit>
                 <trans-unit id="properties.showLineNumbers" xml:space="preserve">
-              <source>Show line numbers</source>
+              <source>Zeige Zeilennummern</source>
             </trans-unit>
             <trans-unit id="properties.highlightLines" xml:space="preserve">
-                <source>Highlight lines (Comma separated)</source>
+                <source>Hebe Zeilen hervor (kommasepariert)</source>
             </trans-unit>
         </body>
     </file>

@@ -32,7 +32,6 @@
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             dataSourceIdentifier: 'geshiLanguages'
-
     showLineNumbers:
       type: boolean
       defaultValue: true
